@@ -1098,7 +1098,7 @@
 				console.log("conhecidos:", conhecidos);
 
 				try {
-					const resposta = await fetch('http://localhost:5000/predict', {
+					const resposta = await fetch('https://perda-peso-api.onrender.com/predict', {
 						method: 'POST',
 						headers: { 'Content-Type': 'application/json' },
 						body: JSON.stringify({ paciente, conhecidos })
