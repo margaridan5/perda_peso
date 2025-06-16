@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+
+		/* Garante que o menu está sempre visível no lado esquerdo */
+		#sidebar {
+			position: fixed;
+			left: 0;
+			top: 0;
+			height: 100vh;
+			width: 250px;
+			background: #f7f7f7;
+			z-index: 9999;
+			overflow-y: auto;
+			transform: none !important;
+			box-shadow: 2px 0 6px rgba(0,0,0,0.1);
+		}
+
+		/* Move o conteúdo principal para a direita para não ficar escondido */
+		#main {
+			margin-left: 250px;
+		}
+
+		/* Remove efeitos de esconder o menu (caso body tenha a classe .is-menu-visible) */
+		body.is-menu-visible #sidebar {
+			transform: none !important;
+		}
+		</style>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<div class="logo" style="font-family: Arial, sans-serif;">
+									<h1 style="margin-bottom: 0;">Sobre o site</h1>
+								</div>
+							</header>
+
+
+							<section id="sobre">
+								<div class="container">
+									<h2 class="major">Motivação</h2>
+									<p>
+										Este projeto foi desenvolvido por 4 alunas de Engenharia Biomédica do Instituto Superior Técnico, no âmbito curricular, como projeto de fim de licenciatura.
+									</p>
+									<p>
+										A escolha do tema para este trabalho surgiu da necessidade de criar uma solução com utilidade prática, enquanto aplicamos os conhecimentos adquiridos ao longo do curso.
+									</p>
+									<p>
+										Pretendemos contribuir diretamente para a área da saúde, nomeadamente no acompanhamento de doentes submetidos à cirurgia do sleeve gástrico. Como alunas de Engenharia Biomédica, reconhecemos a importância de desenvolver ferramentas tecnológicas que facilitem o trabalho dos profissionais de saúde e promovam o bem-estar dos pacientes.
+									</p>
+									<p>
+										Acreditamos que a monitorização do peso e de outros indicadores clínicos é fundamental para o sucesso do acompanhamento pós-cirúrgico, e foi com esse objetivo que desenvolvemos esta aplicação web.
+									</p>
+									<p>
+										O trabalho foi realizado em equipa por quatro alunas, que colaboraram em todas as fases do projeto, partilhando ideias, desafios e soluções, o que nos permitiu desenvolver competências técnicas e de trabalho em grupo.
+									</p>
+
+									<h2 class="major">Equipa</h2>
+									<div class="equipa-row">
+										<!-- Coluna das Alunas -->
+										<div class="equipa-col">
+											<h3>Alunas</h3>
+											<ul>
+												<li>Margarida Nunes</li>
+												<li>Maria Pereira</li>
+												<li>Mariana Azevedo</li>
+												<li>Matilde Fonseca</li>
+											</ul>
+										</div>
+										<!-- Coluna dos Orientadores -->
+										<div class="equipa-col">
+											<h3>Orientadores</h3>
+											<ul>
+												<li>Dra. Raquel Lalanda</li>
+												<li>Dr. Olavo Costa Gomes</li>
+												<li>Prof. Cláudia Lobato</li>
+											</ul>
+										</div>
+									</div>
+									<div style="margin-top: 32px; margin-bottom: 16px;">
+										<h2 class="major">Em colaboração com:</h2>
+										<div class="(em colaboração com)-row">
+											<ul style="list-style: none; padding-left: 0; display: flex; gap: 32px; align-items: center; margin-top: 12px;">
+												<li style="display: flex; align-items: center;">
+
+													<img src="images/departamento.jpg" alt="Departamento" width="150" height="250" style="margin-left: 10px; border-radius: 6px;">
+												</li>
+												<li style="display: flex; align-items: center;">
+
+													<img src="images/ist.png" alt="IST" width="140" height="120" style="margin-left: 10px; border-radius: 6px;">
+												</li>
+												<li style="display: flex; align-items: center;">
+
+													<img src="images/unidade local de santa maria.jpeg" alt="Unidade Local de Santa Maria" width="200" height="120" style="margin-left: 10px; border-radius: 6px;">
+												</li>
+											</ul>
+										</div>
+
+
+
+</section>
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+							<!-- Menu -->
+							<nav id="menu">
+								<header class="major">
+								  <h2>Menu</h2>
+								</header>
+								<ul>
+								  <li><a href="index.html">Prever perda de peso</a></li>
+								  <li><a href="informacoes.html">Informações</a></li>
+								  <li><a href="sobre.html">Sobre o site</a></li>
+								</ul>
+							  </nav>
+							 
+													
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
